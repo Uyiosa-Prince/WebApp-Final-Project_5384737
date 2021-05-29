@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prince Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css" />
+
+    <!--BootStrap-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <!-- Icons from font awesome-->
+    <script src="https://kit.fontawesome.com/0a31f47d96.js" crossorigin="anonymous"></script>
+    <!--JQuery link-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--captcha Link-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo" id="logo">
+                    <!--<img src="images/logo1.png" alt="Page logo" />-->
+                    <a href="#"> Portfo<span>lio</span></a>
+                </div>
+               <ul class="menu">
+                   <li><a href="#home">Home</a></li>
+                   <li> <a href="#about">About</a></li>
+                   <li> <a href="#skills">Skills</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contacts">Contact</a></li>
+
+               </ul>              
+            </div>
+        </nav>                
+           
+        <!--Images scroll-->
+        <!--<div class="fotorama">-->
+        <!--<img style="width:100%" src="images/ageimage.jpg" />-->
+        <!--<img src="images/myimage.png" />
+        <img src="images/myimage.jpg" />
+    </div>-->
+    </header>
+
+    <!--Home section-->
+    <main>
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text1">Hello, my name is</div>
+                    <div class="text2">Prince Uyi </div>
+                    <div class="text3"><!--And I'm a--> <span>Web Developer</span></div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--About Section-->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="about-title">About Me</h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/aboutimage.jpg" />
+                    </div>
+                    <div class="column right">
+                        <div class="about-text"><h3> Hi, I'm Prince, <!--and--> I'm an <span>IT Student</span>.</h3></div>
+                        <p>
+                            I'm from the western part of Africa, i currently live and study in Canada.
+                            I'm a purpose driven person, eager and willing to learn, grow and acquire more knowledge 
+                            and understanding within and outside my field.
+
+                            <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac elementum quam, sit amet tempor elit. Aliquam egestas est tempor, convallis felis vitae,
+                            pretium elit. Morbi fringilla fermentum volutpat. Donec at ullamcorper massa, eu interdum quam. Vivamus mollis et risus vitae venenatis. Donec blandit tortor
+                            sit amet neque tempor auctor. Sed facilisis sapien enim, nec rhoncus massa lobortis ut. Maecenas rhoncus consectetur rutrum.-->
+
+                        </p>
+                        <a class="cv" href="#">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Skills Section-->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-content table-responsive">
+                    <table class="skills-table">
+                        <!--class="table  table-bordered  table-borderless"-->
+                        <thead>
+                            <tr>
+                                <th><strong>PROGRAMMING LANGUAGES</strong></th>
+                                <th><strong>SCRIPTING/WEB DEVELOPMENT</strong></th>
+                                <th><strong>DATABASES</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://www.cplusplus.com/" target="_blank" class="cplus">C++</a></td>
+                                <td><a href="https://www.w3schools.com/html/" target="_blank" class="html">HTML and CSS</a></td>
+                                <td><a href="https://www.mysql.com/" target="_blank" class="mysql">MySql</a></td>
+                            </tr>
+
+                            <tr>
+                                <td><a href="https://www.w3schools.com/cs/" target="_blank" class="csharp">C#</a></td>
+                                <td><a href="https://www.javascript.com/" target="_blank" class="js"> JavaScript</a></td>
+                                <td><a href="#"></a></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><a href="https://www.php.net/" target="_blank" class="php">PHP</a></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--Project Section-->
+        <section class="projects" id="projects">
+            <div class="max-width">
+                <h2 class="projects-title">Projects</h2>
+                <div class="projects-content">
+                    <ul>
+                        <li><a href="https://github.com/Uyiosa-Prince?tab=repositories" target="_blank">GitHub Repository</a></li>
+                        <li><a href="#">Login Form</a></li>
+                        <li><a href="projects/contact form/index.php">Contact Form</a></li>
+                        <li><a href="">Age Calculator</a></li>
+                        <li><a href="#">BMI Calculator</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    
+    
+        <!--Contacts Section-->
+        <section class="contacts" id="contacts">
+            <div class="max-width">
+                <h2 class="contacts-title">Contact Me</h2>
+                <div class="contacts-content">
+                    <div class="column left">
+                        <!--Name-->
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Prince Uyi</div>
+                            </div>
+                        </div>
+                        <!--Address-->
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Toronto, Ontario CA</div>
+                            </div>
+                        </div>
+                        <!--email-->
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">uyimarcel2@gmail.com</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form action="#" method="POST">
+                            <input type="text" class="name" name="name" placeholder="Name" required />
+                            <input type="email" class="email" name="email" placeholder="Email Address" required />
+                            <input type="text" class="subject" name="subject" placeholder="Subject" required />
+                            <textarea class="message" name="message" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="submit-btn" name="submit" value="Send" />
+                        </form>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <!--footer Section-->
+        <span>Created by Prince Uyi | <span class="far fa-copyright">2021 All rights reserved</span></span>
+    </footer>
+
+    <!--Call the javaScript file-->
+    <script src="script.js"></script>
+</body>
+</html>

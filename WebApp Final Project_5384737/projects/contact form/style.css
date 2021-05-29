@@ -1,0 +1,61 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif';
+}
+
+.contact-form {
+    box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.5);
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    background: #efefee;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.contact-form input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+    height: 80px;
+}
+
+.contact-form .submit-btn {
+    cursor: pointer;
+    padding: 5px;
+    width: 100px !important;
+    margin: 10px auto;
+    margin-left: 24px !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.g-recaptcha {
+    margin: 10px auto;
+    margin-left: 24px;
+}
+
+.status {
+    font-size: 15px;
+    color: green;
+    padding: 15px;
+}
+
+.status span {
+    color: #cc0000;
+}
